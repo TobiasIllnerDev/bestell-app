@@ -57,7 +57,7 @@ const menu = [
                 image: ""
             }
         ]
-    }
+    },
 
     {
         category: "Salad",
