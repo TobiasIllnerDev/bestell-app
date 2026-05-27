@@ -25,7 +25,7 @@ const menu = [
                 price: 15.90,
                 description: "Chicken,Cheese,Tomatoes,Lettuce,Onion,Bell pepper",
                 image: "/assets/imgs"
-            },
+            }
         ]
     },
 
@@ -33,10 +33,28 @@ const menu = [
         category: "Pizza",
         products: [
             {
-                name: "Margherita",
-                price: 9.90,
-                description: "Tomate und Mozzarella",
+                name: "Pizza Margherita",
+                price: 11.90,
+                description: "Tomato Sauce,Mozzarella",
                 image: "./img/pizza.jpg"
+            },
+            {
+                name: "Pizza Chorizo",
+                price: 13.90,
+                description: "Tomato slices,Mozzarella,Chorizo",
+                image: "" 
+            },
+            {
+                name: "Pizza Funghi",
+                price: 12.90,
+                description: "Red onion,Olices,Button Mushrooms,Mozzarella",
+                image: ""
+            },
+            {
+                name: "Pizza Quattro Formaggi with Chicken",
+                price: 15.90,
+                description: "Chicken,Mozzarella,Gorgonzola,Fontina,Parmigiano Reggiano",
+                image: ""
             }
         ]
     }
