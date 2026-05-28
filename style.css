@@ -1,0 +1,27 @@
+.nav-bar {
+    background-color: var(--bg-color-background-header);
+    height: 128px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-text {
+    padding-left: 120px;
+    height: 30px;
+    width: 100px;
+}
+
+.navigation {
+    padding-right: 40px;
+    height: 60px;
+    width: 60px;
+}
+
+@media screen and (min-width: 1440px){
+    .nav-bar{
+        padding-left: max(calc(50% - 720px), 160px);
+        padding-right: max(calc(50% - 720px), 160px);
+    }
+
+}
