@@ -1,3 +1,4 @@
+/* HEADER */
 .nav-bar {
     background-color: var(--bg-color-background-header);
     height: 128px;
@@ -17,11 +18,60 @@
     height: 60px;
     width: 60px;
 }
-
+/* MAIN  */
 .main-section {
     height: 100vh;
 }
 
+.header-section {
+    position: relative;
+    height: 300px;
+}
+
+.banner-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.info-section {
+    position: relative;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.logo-container {
+    position: absolute;
+    top: -80px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.restaurant-logo {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.burger-orange {
+    font-family: 'Palanquin Dark';
+    color: var(--bg-color-background-header);
+    line-height: 120%;
+    letter-spacing: 0%;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.burger-black {
+    font-family: 'Palanquin Dark';
+    color: var(--bg-color-text-h1-color);
+    line-height: 120%;
+    letter-spacing: 0%;
+    font-size: 48px;
+    font-weight: bold;
+}
+/* FOOTER */
 .footer-section {
     display: flex;
     align-items: flex-end;
@@ -37,6 +87,7 @@
     text-decoration: none;
     font-size: 18px;
     line-height: 120%;
+    letter-spacing: 0%;
     color: var(--bg-color-h2-color);
     font-family: 'Palanquin';
 }
