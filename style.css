@@ -18,10 +18,33 @@
     width: 60px;
 }
 
+.main-section {
+    height: 100vh;
+}
+
+.footer-section {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    padding-bottom: 20px;
+    margin-bottom: 0;
+    background-color: var(--bg-color-background-header);
+    height: 128px;
+}
+
 @media screen and (min-width: 1440px){
     .nav-bar{
         padding-left: max(calc(50% - 720px), 160px);
         padding-right: max(calc(50% - 720px), 160px);
     }
 
+    main {
+        padding-left: max(calc(50% - 720px), 160px);
+        padding-right: max(calc(50% - 720px), 160px);
+    }
+
+    .footer-section {
+        padding-left: max(calc(50% - 720px), 160px);
+        padding-right: max(calc(50% - 720px), 160px);
+    }
 }
