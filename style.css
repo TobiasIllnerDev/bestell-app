@@ -25,11 +25,20 @@
 .footer-section {
     display: flex;
     align-items: flex-end;
-    justify-content: space-around;
-    padding-bottom: 20px;
+    justify-content: center;
+    gap: 72px;
+    padding-bottom: 30px;
     margin-bottom: 0;
     background-color: var(--bg-color-background-header);
     height: 128px;
+}
+
+.a-tag {
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 120%;
+    color: var(--bg-color-h2-color);
+    font-family: 'Palanquin';
 }
 
 @media screen and (min-width: 1440px){
