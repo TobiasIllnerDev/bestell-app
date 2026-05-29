@@ -132,7 +132,19 @@
     flex-direction: column;
 }
 
-.basket > h2 {
+.basket-content {
+    width: 200px;
+}
+
+.subtotal-content, .delivery-content, .total-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+
+}
+
+.basket-content > h2 {
     color: var(--bg-color-basket);
     font-size: 32px;
     font-family: 'Palanquin';
@@ -141,13 +153,11 @@
     letter-spacing: 0%;
 }
 
-.subtotal-content {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-}
+.white-line {
+    border: 2px white solid;
+    width: 100%;
 
+}
 
 .burger-headline,
 .pizza-headline,
