@@ -133,7 +133,7 @@
 }
 
 .basket-content {
-    width: 200px;
+    width: 300px;
 }
 
 .subtotal-content, .delivery-content, .total-content {
@@ -141,7 +141,6 @@
     align-items: center;
     justify-content: space-between;
     flex-direction: row;
-
 }
 
 .basket-content > h2 {
@@ -153,10 +152,36 @@
     letter-spacing: 0%;
 }
 
+.price-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
 .white-line {
     border: 2px white solid;
     width: 100%;
 
+}
+
+.subtotal-content, .delivery-content, .total-content > p{
+    color: var(--bg-color-h2-color);
+    font-size: 20px;
+    font-family: 'Palanquin';     
+    line-height: 120%;
+    letter-spacing: 0%;
+}
+
+.button-basket {
+    border-radius: 20px;
+    background-color: var(--bg-color-background-header);
+    color: var(--bg-color-h2-color);
+    width: 320px;
+    height: 64px;
+    font-size: 32px;
+    font-family: 'Palanquin';     
+    font-weight: 700;
+    
 }
 
 .burger-headline,
