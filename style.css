@@ -94,23 +94,31 @@
     letter-spacing: 0%;
     padding-bottom: 70px;
 }
+
+.burger-headline,
+.pizza-headline,
+.salad-headline {
+    position: absolute;
+    top: -30%;
+
+    width: 100%;
+    max-width: 1200px;
+
+    left: 50%;
+    transform: translateX(-50%);
+
+    display: flex;
+    align-items: center;
+    gap: 30px;
+
+    padding-left: 300px;
+}
+
 /* BURGER */
 .burger-section {
     position: relative;
     background-color: var(--bg-color-background-header);
     height: 60px;
-}
-
-.burger-headline {
-    position: absolute;
-    left: 15%;
-    top: -30%;
-    height: 91px;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 30px;
 }
 
 .burger-headline > h2 {
@@ -137,18 +145,6 @@
     height: 60px;
 }
 
-.pizza-headline {
-    position: absolute;
-    left: 15%;
-    top: -30%;
-    height: 91px;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 30px;
-}
-
 .pizza-headline > h2 {
     font-family: 'Palanquin';
     line-height: 120%;
@@ -172,18 +168,6 @@
     position: relative;
     background-color: var(--bg-color-background-header);
     height: 60px;
-}
-
-.salad-headline {
-    position: absolute;
-    left: 15%;
-    top: -30%;
-    height: 91px;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 30px;
 }
 
 .salad-headline > h2 {
@@ -230,8 +214,8 @@
     }
 
     .header-section {
-        padding-left: max(calc(50% - 720px), 160px);
-        padding-right: max(calc(50% - 720px), 160px);
+        padding-left: max(calc(40% - 720px), 160px);
+        padding-right: max(calc(40% - 720px), 160px);
     }
 
     .info-section {
@@ -239,10 +223,20 @@
         padding-right: max(calc(50% - 720px), 160px);
     }
 
-    .pizza-headline {
+   .burger-headline {
         padding-left: max(calc(50% - 720px), 160px);
         padding-right: max(calc(50% - 720px), 160px);
-    }
+   }
+
+   .pizza-headline {
+        padding-left: max(calc(50% - 720px), 160px);
+        padding-right: max(calc(50% - 720px), 160px);
+   }
+
+   .salad-headline {
+        padding-left: max(calc(50% - 720px), 160px);
+        padding-right: max(calc(50% - 720px), 160px);
+   }
 
     .footer-section {
         padding-left: max(calc(50% - 720px), 160px);
