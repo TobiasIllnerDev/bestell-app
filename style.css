@@ -54,6 +54,13 @@
     object-fit: cover;
 }
 
+.headling-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
 .burger-orange {
     font-family: 'Palanquin Dark';
     color: var(--bg-color-background-header);
@@ -71,6 +78,130 @@
     font-size: 48px;
     font-weight: bold;
 }
+
+.rating-img {
+    padding-top: 10px;
+    width: 100px;
+    height: 28px;
+}
+
+.p-headling-p-element {
+    font-family: 'Palanquin';
+    color: var(--bg-color-text-color);
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    padding-bottom: 70px;
+}
+/* BURGER */
+.burger-section {
+    position: relative;
+    background-color: var(--bg-color-background-header);
+    height: 60px;
+}
+
+.burger-headline {
+    position: absolute;
+    left: 15%;
+    top: -30%;
+    height: 91px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.burger-headline > h2 {
+    font-family: 'Palanquin';
+    line-height: 120%;
+    letter-spacing: 0%;
+    color: var(--bg-color-h2-color);
+    font-size: 40px;
+}
+
+.burger-headline > h2 > span {
+    font-weight: 400;
+}
+
+.main-content-burger {
+    padding-bottom: 100px;
+    padding-top: 16px;
+}
+
+/* PIZZA */
+.pizza-section {
+    position: relative;
+    background-color: var(--bg-color-background-header);
+    height: 60px;
+}
+
+.pizza-headline {
+    position: absolute;
+    left: 15%;
+    top: -30%;
+    height: 91px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.pizza-headline > h2 {
+    font-family: 'Palanquin';
+    line-height: 120%;
+    letter-spacing: 0%;
+    color: var(--bg-color-h2-color);
+    font-size: 40px;
+}
+
+.pizza-headline > h2 > span {
+    font-weight: 400;
+}
+
+.main-content-pizza {
+    padding-bottom: 100px;
+    padding-top: 16px;
+}
+
+/* SALAD */
+
+.salad-section {
+    position: relative;
+    background-color: var(--bg-color-background-header);
+    height: 60px;
+}
+
+.salad-headline {
+    position: absolute;
+    left: 15%;
+    top: -30%;
+    height: 91px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.salad-headline > h2 {
+    font-family: 'Palanquin';
+    line-height: 120%;
+    letter-spacing: 0%;
+    color: var(--bg-color-h2-color);
+    font-size: 40px;
+}
+
+.salad-headline > h2 > span {
+    font-weight: 400;
+}
+
+.main-content-salad {
+    padding-bottom: 120px;
+}
+
 /* FOOTER */
 .footer-section {
     display: flex;
@@ -98,7 +229,17 @@
         padding-right: max(calc(50% - 720px), 160px);
     }
 
-    main {
+    .header-section {
+        padding-left: max(calc(50% - 720px), 160px);
+        padding-right: max(calc(50% - 720px), 160px);
+    }
+
+    .info-section {
+        padding-left: max(calc(50% - 720px), 160px);
+        padding-right: max(calc(50% - 720px), 160px);
+    }
+
+    .pizza-headline {
         padding-left: max(calc(50% - 720px), 160px);
         padding-right: max(calc(50% - 720px), 160px);
     }
