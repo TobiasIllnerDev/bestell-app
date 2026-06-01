@@ -20,7 +20,7 @@
 }
 /* MAIN  */
 .main-section {
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .header-section {
@@ -307,7 +307,7 @@
 
 .main-content-burger {
     padding-top: 16px;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
     padding-left: 300px;
     display: flex;
 }
@@ -429,7 +429,7 @@
 
 .main-content-pizza {
     padding-top: 16px;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
     padding-left: 300px;
     display: flex;
 }
@@ -553,6 +553,7 @@
 .main-content-salad {
     padding-top: 16px;
     padding-left: 300px;
+    padding-bottom: 50px;
 }
 
 .salad-content-main {
