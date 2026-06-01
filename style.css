@@ -134,6 +134,7 @@
 
 .menu-basket {
     display: flex;
+    flex-direction: column;
     background-color: var(--bg-basket-content);
     border-radius: 20px;
     align-items: flex-start;
@@ -163,6 +164,47 @@
     height: 20px;
     width: 20px;
     margin-right: 10px;
+}
+
+.menu-price-basket{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.menu-button-basket {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.menu-button-basket > button {
+    background: none;
+    border: none;
+    color: var(--bg-color-text-color);
+    font-size: 24px;
+    font-family: 'Palanquin';     
+    line-height: 120%;
+    letter-spacing: 0%;
+}
+
+.menu-button-basket > p {
+    color: var(--bg-color-text-color);
+    font-size: 20px;
+    font-family: 'Palanquin';     
+    line-height: 120%;
+    letter-spacing: 0%
+}
+
+.content-price-basket {
+    color: var(--bg-color-text-color);
+    font-size: 20px;
+    font-family: 'Palanquin';     
+    line-height: 120%;
+    letter-spacing: 0%
 }
 
 .basket-content {
