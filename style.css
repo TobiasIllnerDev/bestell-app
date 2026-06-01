@@ -306,32 +306,30 @@
 }
 
 .main-content-burger {
+    padding-top: 16px;
     padding-bottom: 100px;
-    padding-top: 16px;  
-    display: flex;
     padding-left: 300px;
+    display: flex;
 }
 
 .burger-content-main {
     margin-left: 20px;
     border-radius: 20px;
     display: flex;
-    align-items: start;
-    justify-content: start;
+    align-items: flex-start;
     gap: 20px;
-    flex-direction: row;
-    max-width: 750px;
-    height: 150px;
-    background-color: var(--bg-basket-content) ;
+    width: 900px;
+    min-height: 150px;
+    background-color: var(--bg-basket-content);
 }
 
 .main-img-burger {
-    border-radius: 20px;
+    flex-shrink: 0;
 }
 
 .main-img-burger > img {
-    height: 130px;
     width: 230px;
+    height: 130px;
     padding: 10px 5px 10px 10px;
     border-radius: 20px;
     object-fit: cover;
@@ -339,48 +337,50 @@
 
 .content-burger-text {
     display: flex;
-    padding: 10px 10px 10px 0px;
+    flex: 1;
+    justify-content: space-between;
+    padding: 10px 20px 10px 0;
     gap: 20px;
-    flex-direction: row;
-
 }
 
 .content-titel-burger {
     display: flex;
-    gap: 15px;
-    width: 100%;
     flex-direction: column;
-    align-items: flex-start;
+    gap: 10px;
+    flex: 1;
+    min-width: 0;
 }
 
-.content-titel-burger > h2{
+.content-titel-burger > h2 {
     font-family: 'Palanquin';
     line-height: 120%;
-    letter-spacing: 0%;
     color: var(--bg-color-text-color);
     font-size: 24px;
+    white-space: nowrap;
 }
 
 .content-titel-burger > p {
     font-family: 'Palanquin';
     line-height: 120%;
-    letter-spacing: 0%;
     color: var(--bg-color-text-color);
     font-size: 20px;
 }
 
 .content-burger-price {
+    width: 160px;
+    flex-shrink: 0;
+
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;
-    padding-right: 30px;
+    align-items: flex-end;
+
+    padding-right: 10px;
 }
 
 .content-burger-price > p {
     font-family: 'Palanquin';
     line-height: 120%;
-    letter-spacing: 0%;
     color: var(--bg-color-text-color);
     font-size: 20px;
     font-weight: bold;
@@ -389,13 +389,19 @@
 .content-burger-price > button {
     width: 140px;
     height: 30px;
+
     background-color: white;
     color: var(--bg-color-text-color);
+
     font-family: 'Palanquin';
     font-size: 16px;
     font-weight: bold;
-    border-radius: 20px;
+
     border: none;
+    border-radius: 20px;
+
+    cursor: pointer;
+    white-space: nowrap;
 }
 
 .content-burger-price > button:hover {
@@ -422,8 +428,106 @@
 }
 
 .main-content-pizza {
-    padding-bottom: 100px;
     padding-top: 16px;
+    padding-bottom: 100px;
+    padding-left: 300px;
+    display: flex;
+}
+
+.pizza-content-main {
+    margin-left: 20px;
+    border-radius: 20px;
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    width: 900px;
+    min-height: 150px;
+    background-color: var(--bg-basket-content);
+}
+
+.main-img-pizza {
+    flex-shrink: 0;
+}
+
+.main-img-pizza > img {
+    width: 230px;
+    height: 130px;
+    padding: 10px 5px 10px 10px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.content-pizza-text {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    padding: 10px 20px 10px 0;
+    gap: 20px;
+}
+
+.content-titel-pizza {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 1;
+    min-width: 0;
+}
+
+.content-titel-pizza > h2 {
+    font-family: 'Palanquin';
+    line-height: 120%;
+    color: var(--bg-color-text-color);
+    font-size: 24px;
+    white-space: nowrap;
+}
+
+.content-titel-pizza > p {
+    font-family: 'Palanquin';
+    line-height: 120%;
+    color: var(--bg-color-text-color);
+    font-size: 20px;
+}
+
+.content-pizza-price {
+    width: 160px;
+    flex-shrink: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    padding-right: 10px;
+}
+
+.content-pizza-price > p {
+    font-family: 'Palanquin';
+    line-height: 120%;
+    color: var(--bg-color-text-color);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.content-pizza-price > button {
+    width: 140px;
+    height: 30px;
+
+    background-color: white;
+    color: var(--bg-color-text-color);
+
+    font-family: 'Palanquin';
+    font-size: 16px;
+    font-weight: bold;
+
+    border: none;
+    border-radius: 20px;
+
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.content-pizza-price > button:hover {
+    color: var(--bg-color-background-header);
 }
 
 /* SALAD */
@@ -446,6 +550,106 @@
     font-weight: 400;
 }
 
+.main-content-salad {
+    padding-top: 16px;
+    padding-left: 300px;
+}
+
+.salad-content-main {
+    margin-left: 20px;
+    border-radius: 20px;
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    width: 900px;
+    min-height: 150px;
+    background-color: var(--bg-basket-content);
+}
+
+.main-img-salad {
+    flex-shrink: 0;
+}
+
+.main-img-salad > img {
+    width: 230px;
+    height: 130px;
+    padding: 10px 5px 10px 10px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.content-salad-text {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    padding: 10px 20px 10px 0;
+    gap: 20px;
+}
+
+.content-titel-salad {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 1;
+    min-width: 0;
+}
+
+.content-titel-salad > h2 {
+    font-family: 'Palanquin';
+    line-height: 120%;
+    color: var(--bg-color-text-color);
+    font-size: 24px;
+    white-space: nowrap;
+}
+
+.content-titel-salad > p {
+    font-family: 'Palanquin';
+    line-height: 120%;
+    color: var(--bg-color-text-color);
+    font-size: 20px;
+}
+
+.content-salad-price {
+    width: 160px;
+    flex-shrink: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    padding-right: 10px;
+}
+
+.content-salad-price > p {
+    font-family: 'Palanquin';
+    line-height: 120%;
+    color: var(--bg-color-text-color);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.content-salad-price > button {
+    width: 140px;
+    height: 30px;
+
+    background-color: white;
+    color: var(--bg-color-text-color);
+
+    font-family: 'Palanquin';
+    font-size: 16px;
+    font-weight: bold;
+
+    border: none;
+    border-radius: 20px;
+
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.content-salad-price > button:hover {
+    color: var(--bg-color-background-header);
+}
 
 /* FOOTER */
 .footer-section {
@@ -454,6 +658,7 @@
     justify-content: center;
     gap: 72px;
     padding-bottom: 30px;
+    
     margin-bottom: 0;
     background-color: var(--bg-color-background-header);
     height: 128px;
