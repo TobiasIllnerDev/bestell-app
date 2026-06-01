@@ -282,6 +282,10 @@
     padding-left: 300px;
 }
 
+.burger-headline {  
+    top: -45%;
+}
+
 /* BURGER */
 .burger-section {
     position: relative;
@@ -303,7 +307,99 @@
 
 .main-content-burger {
     padding-bottom: 100px;
-    padding-top: 16px;
+    padding-top: 16px;  
+    display: flex;
+    padding-left: 300px;
+}
+
+.burger-content-main {
+    margin-left: 20px;
+    border-radius: 20px;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    gap: 20px;
+    flex-direction: row;
+    max-width: 750px;
+    height: 150px;
+    background-color: var(--bg-basket-content) ;
+}
+
+.main-img-burger {
+    border-radius: 20px;
+}
+
+.main-img-burger > img {
+    height: 130px;
+    width: 230px;
+    padding: 10px 5px 10px 10px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.content-burger-text {
+    display: flex;
+    padding: 10px 10px 10px 0px;
+    gap: 20px;
+    flex-direction: row;
+
+}
+
+.content-titel-burger {
+    display: flex;
+    gap: 15px;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.content-titel-burger > h2{
+    font-family: 'Palanquin';
+    line-height: 120%;
+    letter-spacing: 0%;
+    color: var(--bg-color-text-color);
+    font-size: 24px;
+}
+
+.content-titel-burger > p {
+    font-family: 'Palanquin';
+    line-height: 120%;
+    letter-spacing: 0%;
+    color: var(--bg-color-text-color);
+    font-size: 20px;
+}
+
+.content-burger-price {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 30px;
+}
+
+.content-burger-price > p {
+    font-family: 'Palanquin';
+    line-height: 120%;
+    letter-spacing: 0%;
+    color: var(--bg-color-text-color);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.content-burger-price > button {
+    width: 140px;
+    height: 30px;
+    background-color: white;
+    color: var(--bg-color-text-color);
+    font-family: 'Palanquin';
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 20px;
+    border: none;
+}
+
+.content-burger-price > button:hover {
+    color: var(--bg-color-background-header);
 }
 
 /* PIZZA */
