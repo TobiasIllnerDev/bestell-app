@@ -1,51 +1,51 @@
-function getBurgerTemplates() {
+function getBurgerTemplates(product) {
     return ` <div class="burger-content-main">
                 <div class="main-img-burger">
-                  <img src="./assets/imgs/all-meat-burger.png" alt="" />
+                  <img src="${product.image}" alt="${product.name}" />
                 </div>
                 <div class="content-burger-text">
                   <div class="content-titel-burger">
-                    <h2>Veggie mushroom black burger</h2>
-                    <p>Mixed green salad, Tomatoes, Edamame, Mushrooms</p>
+                    <h2>${product.name}</h2>
+                    <p>${product.description}}</p>
                   </div>
                   <div class="content-burger-price">
-                    <p>16,90€</p>
+                    <p>${product.price.toFixed(2)}€}</p>
                     <button>Added to basket</button>
                   </div>
                 </div>
               </div>`
 }
 
-function getPizzaTemplates() {
+function getPizzaTemplates(product) {
     return `<div class="pizza-content-main">
                 <div class="main-img-pizza">
-                  <img src="./assets/imgs/all-meat-burger.png" alt="" />
+                  <img src="${product.image}" alt="${product.name}" />
                 </div>
                 <div class="content-pizza-text">
                   <div class="content-titel-pizza">
-                    <h2>Veggie mushroom black burger</h2>
-                    <p>Mixed green salad, Tomatoes, Edamame, Mushrooms</p>
+                    <h2>${product.name}</h2>
+                    <p>${product.description}}</p>
                   </div>
                   <div class="content-pizza-price">
-                    <p>16,90€</p>
+                    <p>${product.price.toFixed(2)}€}</p>
                     <button>Added to basket</button>
                   </div>
                 </div>
               </div>`
 }
 
-function getSaladTemplates() {
+function getSaladTemplates(product) {
     return `<div class="salad-content-main">
                 <div class="main-img-salad">
-                  <img src="./assets/imgs/all-meat-burger.png" alt="" />
+                  <img src="${product.image}" alt="${product.name}" />
                 </div>
                 <div class="content-salad-text">
                   <div class="content-titel-salad">
-                    <h2>Veggie mushroom black burger</h2>
-                    <p>Mixed green salad, Tomatoes, Edamame, Mushrooms</p>
+                    <h2>${product.name}</h2>
+                    <p>${product.description}}</p>
                   </div>
                   <div class="content-salad-price">
-                    <p>16,90€</p>
+                    <p>${product.price.toFixed(2)}€}</p>
                     <button>Added to basket</button>
                   </div>
                 </div>

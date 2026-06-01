@@ -310,6 +310,8 @@
     padding-bottom: 50px;
     padding-left: 300px;
     display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .burger-content-main {
@@ -432,6 +434,8 @@
     padding-bottom: 50px;
     padding-left: 300px;
     display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .pizza-content-main {
@@ -554,6 +558,9 @@
     padding-top: 16px;
     padding-left: 300px;
     padding-bottom: 50px;
+    flex-direction: column;
+    display: flex;
+    gap: 20px;
 }
 
 .salad-content-main {

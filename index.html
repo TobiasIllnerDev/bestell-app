@@ -15,7 +15,7 @@
     <script src="./scripts/db.js"></script>
     <script src="script.js"></script>
   </head>
-  <body>
+  <body onload="init()">
     <header>
       <nav class="nav-bar">
         <div class="logo-text">
@@ -75,7 +75,7 @@
                 <h2 class="styling-h2">Burger & Sandwiches</h2>
               </div>
             </section>
-            <section class="main-content-burger"></section>
+            <section class="main-content-burger" id="Burger"></section>
             <!-- PIZZA -->
             <section class="pizza-section">
               <div class="pizza-headline">
@@ -83,7 +83,7 @@
                 <h2 class="styling-h2">Pizza <span>(30cm)</span></h2>
               </div>
             </section>
-            <section class="main-content-pizza"></section>
+            <section class="main-content-pizza" id="Pizza"></section>
             <!-- SALAD -->
             <section class="salad-section">
               <div class="salad-headline">
@@ -91,7 +91,7 @@
                 <h2 class="styling-h2">Salad</h2>
               </div>
             </section>
-            <section class="main-content-salad"></section>
+            <section class="main-content-salad" id="Salad"></section>
           </section>
           <section class="basket-wrapper"></section>
         </div>
